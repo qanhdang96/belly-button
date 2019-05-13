@@ -57,12 +57,11 @@ function buildCharts(sample) {
       hoverinfo: "hovertext",
       type: "pie"    }];
 
-    var pieChart = {
-      margin: { t: 0, l: 0 }
+    var pieChart {
+      margin: { t:0, l:0 }
     };
-
     Plotly.plot("pie", pieData, pieChart);
-  });
+  });    
 }
 
 function init() {
